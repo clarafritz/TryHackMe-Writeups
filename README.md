@@ -10,11 +10,13 @@ Il répertorie :
 
 
 ---------------------------------------------------------
+
 Objectif : Consolider mes compétences pratiques sur les fondamentaux de la cybersécurité (Réseaux, Linux, Web, Analyse de vulnérabilités) en complément de mon cursus académique.
+
 ---------------------------------------------------------
 
 STRUCTURE DU DEPOT : 
-  1. Réseaux & Infrastructures
+  1. Réseaux & Infrastructure
        - [ ] **What is Networking?** — Adresses IP, masques et ports
        - [ ] **Intro to LAN** — Fonctionnement des réseaux locaux
        - [ ] **OSI Model** — Étude des 7 couches OSI
