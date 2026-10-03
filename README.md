@@ -19,8 +19,8 @@ STRUCTURE DU DEPOT :
   1. Réseaux & Infrastructure
        - [x] **What is Networking?** — Adresses IP, masques et ports
        - [x] **Intro to LAN** — Fonctionnement des réseaux locaux
-       - [ ] **OSI Model** — Étude des 7 couches OSI
        - [ ] **DNS in Detail** — Mécanismes de résolution de noms
+       - [ ] **How The Web Works** — Modèle TCP/IP et requêtes web
 
   2. Linux & Administration Système
        - [ ] **Linux Fundamentals Part 1** — Commandes de base et navigation
@@ -29,7 +29,6 @@ STRUCTURE DU DEPOT :
        - [ ] **Windows Basics** — Outils et architecture Windows
     
   3. Sécurité Web & Bases de Données
-       - [ ] **How Websites Work** — Protocoles web et requêtes client/serveur
        - [ ] **HTTP in Detail** — En-têtes, méthodes et codes d'état
        - [ ] **SQL Injection** — Analyse et sécurisation des requêtes SQL
     
