@@ -17,7 +17,7 @@ Objectif : Consolider mes compétences pratiques sur les fondamentaux de la cybe
 
 STRUCTURE DU DEPOT : 
   1. Réseaux & Infrastructure
-       - [ ] **What is Networking?** — Adresses IP, masques et ports
+       - [x] **What is Networking?** — Adresses IP, masques et ports
        - [ ] **Intro to LAN** — Fonctionnement des réseaux locaux
        - [ ] **OSI Model** — Étude des 7 couches OSI
        - [ ] **DNS in Detail** — Mécanismes de résolution de noms
