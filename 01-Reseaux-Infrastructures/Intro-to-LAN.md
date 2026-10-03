@@ -14,25 +14,33 @@
 ## Notions clés 
 
 ### 1. Topologies Réseau
-  - **Étoile (Star) :** Appareils reliés à un équipement central (Switch/Hub). Très évolutive mais point de défaillance unique au centre.
-  - **Bus :** Câble unique partagé. Économique mais sujet aux collisions et goulots d'étranglement.
-  - **Anneau (Ring) :** Données circulant en boucle. Moins de goulots d'étranglement mais une coupure interrompt tout le réseau.
+  - **Étoile (Star) :** Connexion individuelle à un équipement central (Switch/Hub). La plus répandue (fiable, évolutive), mais plus chère (câblage) et vulnérable à la panne du point central.
+  - **Bus :** Câble principal unique. Très économique et simple, mais débit lent (partagé) et aucun secours si le câble rompt.
+  - **Anneau (Ring) :** Appareils connectés en boucle ("jeton"). Circulation unidirectionnelle facilitant le dépannage, mais trafic non optimal et coupure globale en cas de panne d'un hôte.
 
 ### 2. Équipements
   - **Switch (Commutateur) :** Connecte les appareils au sein d'un même LAN via leurs adresses MAC.
-  - **Router (Routeur) :** Interconnecte différents réseaux et achemine le trafic entre eux (Routage)
+  - **Routeur :** Interconnecte des réseaux différents et achemine le trafic entre eux grâce au **routage**.
 
 ### 3. Sous-réseautage (Subnetting)
-  - Divise un réseau global en sous-réseaux plus petits (efficacité, sécurité, gestion)
+  - Divise un réseau en sous-réseaux plus petits (ex. Compta, RH, Finance) pour des gains en sécurité et gestion.
   - Masque de sous-réseau : codé sur **32 bits** (ex: 4 octets de 0 à 255)
-  - Éléments clés : **Adresse Réseau**, **Adresse Hôte**, **Passerelle par défaut (Default Gateway)**
+  - Éléments fondamentaux : **Adresse Réseau** (début du réseau), **Adresse Hôte** (identifiant machine), **Passerelle par défaut / Default Gateway** (routeur de sortie).
 
 ### 4. Protocoles Réseau
   - **ARP (Address Resolution Protocol) :** Associe une adresse IP (identifiant logique) à une adresse MAC (identifiant physique) en diffusant des messages *Request* / *Reply*.
-  - **DHCP (Dynamic Host Configuration Protocol) :** Attribue automatiquement des adresses IP via le processus **DORA** :
-      1. `Discover` (Client -> Serveur)
-      2. `Offer` (Serveur -> Client)
-      3. `Request` (Client -> Serveur)
-      4. `ACK` (Serveur -> Client)
+  - **DHCP (Dynamic Host Configuration Protocol) :** Attribue automatiquement les adresses IP via le processus **DORA** :
+      1. `Discover` (Client -> Serveur) : Le client cherche un serveur DHCP.
+      2. `Offer` (Serveur -> Client) : Le serveur propose une IP.
+      3. `Request` (Client -> Serveur) : Le client confirme vouloir cette IP.
+      4. `ACK` (Serveur -> Client) : Le serveur valide l'attribution.
    
-  
+---------------------------------------------------------
+
+## Synthèse des commandes & exercices
+
+- **Simulation de topologies :** Validation du parcours des paquets de données sur les topologies Bus, Étoile et Anneau.
+- **Notations et termes à retenir pour TryHackMe :**
+    1. Passerelle par défaut $\rightarrow$ `default gateway`
+    2. Attribution dynamique IP $\rightarrow$ Processus `DORA` (`Discover`, `Offer`, `Request`, `ACK`)
+    3. Identifiants $\rightarrow$ MAC = Identifiant physique | IP = Identifiant logique
