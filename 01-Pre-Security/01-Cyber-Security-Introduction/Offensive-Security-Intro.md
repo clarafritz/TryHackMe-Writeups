@@ -1,6 +1,7 @@
 # Writeup TryHackMe : Introduction to Offensive Security
 
 - **Parcours :** Pre-Security
+- **Date :** 08/10/2026
 - **Module :** 1) Introduction to Cyber Security
 - **Niveau :** Facile / Débutant
 
