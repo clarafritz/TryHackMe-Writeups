@@ -3,7 +3,7 @@
 - **Parcours :** Pre-Security
 - **Date :** 13/10/2026
 - **Module :** 3) Operating Systems Basics
-- **Niveau :** Facile / Débutant
+- **Niveau :** Facile / Débutant 
 
 ---
 
