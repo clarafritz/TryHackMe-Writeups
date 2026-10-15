@@ -3,7 +3,7 @@
 - **Parcours :** Pre-Security
 - **Date :** 15/10/2026
 - **Module :** 4) Software Basics
-- **Niveau :** Facile / Débutant
+- **Niveau :** Moyen / Medium 
 
 ---
 
