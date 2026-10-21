@@ -25,10 +25,8 @@ Découvrir les fondements de la sécurité offensive et du piratage éthique, s'
 ## Synthèse des commandes 
 
 - **Énumération de répertoires web (Gobuster) :**
-  ```bash
-  gobuster dir --url [http://www.onlineshop.thm/](http://www.onlineshop.thm/) -w /usr/share/wordlists/dirbuster/directory-list.txt
-``
+  gobuster dir --url http://www.onlineshop.thm/ -w /usr/share/wordlists/dirbuster/directory-list.txt
+  
   - **Brute force d'authentification (Hydra) :**
-  ```bash
   hydra -l admin -P passlist.txt www.onlineshop.thm http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V
-``
+  
