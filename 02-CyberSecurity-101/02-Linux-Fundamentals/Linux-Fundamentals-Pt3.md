@@ -53,14 +53,18 @@ Dans cette salle, nous sommes intervenus en connexion SSH sur la machine cible (
   nano task3
 
 - Lancement d'un serveur web HTTP rapide :
-python3 -m http.server 8000
+  ```bash
+  python3 -m http.server 8000
 
 - Identification d'un processus masqué :
-ps aux | grep THM
+  ```bash
+  ps aux | grep THM
 
 - Gestion d'un service système :
- systemctl stop myservice
- systemctl enable myservice
+  ```bash
+  systemctl stop myservice
+  systemctl enable myservice
 
 - Consultation de la planification Cron :
+  ```bash
   crontab -l
